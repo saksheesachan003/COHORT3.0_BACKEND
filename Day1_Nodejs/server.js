@@ -6,7 +6,7 @@ console.log("HTTP:", http);
 let server = http.createServer((req, res) => {
   console.log("Hello I'm server");
 
-  // sends response from response
+  // sends response from server
   res.end("I have listened you....");
 });
 
