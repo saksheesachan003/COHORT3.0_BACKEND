@@ -10,7 +10,7 @@ const {
 const router = express.Router();
 
 // CREATE. 
-router.get("/create", createNotesController);
+router.post("/create", createNotesController);
 
 // READ
 router.get("/allNotes", getAllNotesController);
